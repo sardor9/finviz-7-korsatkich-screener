@@ -1,0 +1,25 @@
+# Virtual muhit
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Natija fayllari (ixtiyoriy - agar CSV'ni ham saqlamoqchi bo'lsangiz, shu qatorni o'chiring)
+*.csv
+
+# IDE sozlamalari
+.vscode/
+.idea/
+
+# OS fayllari
+.DS_Store
+Thumbs.db
+
+# Maxfiy ma'lumotlar (API kalitlar, parollar va h.k.)
+.env
+*.key
+config_secret.py
